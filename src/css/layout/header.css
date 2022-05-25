@@ -1,0 +1,51 @@
+
+/* header.css
+========================================================================== */
+.l-header{
+  margin: 0 auto;
+  width : 1000px;
+  height : 90px;
+  border-bottom: 1px solid #a8a8a8;
+  display: flex;
+  align-items: center;
+}
+
+.l-header h1{
+  float: left;
+  height: 50px;
+  width:250px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.l-header nav{
+  margin-left: auto;
+}
+.l-header nav ul li{
+  display: inline;
+  padding-left: 35px;
+  font-size: 14px;
+}
+.l-header nav ul{
+  display: flex;
+  text-align: right;
+}
+.l-header ._active{
+  font-weight: bold;
+}
+.l-header nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.l-header nav ul li span{
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+/* マウスオーバー時 */
+.l-header h1:hover{
+  opacity: 0.5;
+}
+.l-header nav ul li span:hover {
+  color: #ccc;
+}

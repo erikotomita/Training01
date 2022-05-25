@@ -1,0 +1,30 @@
+
+/* mainVisual.css
+========================================================================== */
+.c-mainVisual {
+    margin: 40px 0px 0px 0px;
+    position: relative;
+    height : 360px;
+}
+.c-mainVisual__info{
+  margin:0 auto;
+  position: absolute;/*絶対配置*/
+  bottom: 35px;
+  left: 40px;
+}
+
+.c-mainVisual__tag{
+  display:inline-block;
+  color: #000;
+  font: 16px;
+  font-weight: bold;
+  background-color:#ffdfdf;
+  padding:8px 24px 8px 24px;
+  margin-bottom:10px;
+}
+
+.c-mainVisual__caption{
+  width:100%;
+  font-size:20px;
+  line-height: 1.5em;
+}

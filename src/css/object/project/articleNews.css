@@ -1,0 +1,14 @@
+
+/* articleNews.css
+========================================================================== */
+.p-articleNews{
+  width:1000px;
+  margin: auto;
+  padding:42px 0px 60px 0px;
+}
+
+.p-articleBox{
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30px;
+}

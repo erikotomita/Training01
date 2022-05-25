@@ -1,0 +1,27 @@
+
+/* articleBox3col.css
+========================================================================== */
+.c-articleBox3col__img__tag{
+  color: #000;
+  font-size: 14px;
+  padding:5px 22px 5px 22px;
+  background-color:#a3d39c;
+  margin: 10px 0px 15px 0px;
+  display: inline-block;
+}
+
+.c-articleBox3col__text{
+  font-size: 14px;
+}
+
+.c-articleBox3col__img__tag._green{
+  background-color:#a3d39c;
+}
+.c-articleBox3col__img__tag._pink{
+        background-color:#ffdfdf;
+}
+.c-articleBox3col__img__tag._yellow{
+
+    background-color:#fff799;
+
+}

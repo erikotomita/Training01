@@ -1,0 +1,27 @@
+
+/* main.css
+========================================================================== */
+html {
+  height: 100%;
+  line-height: 2;
+  background: #fff;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  color: #000;
+  -webkit-text-size-adjust: none;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  line-height: 1.2em
+}
+
+.l-main{
+     width:100%;
+}
+
+p, span, h1, h2{
+  margin: 0 auto;
+}

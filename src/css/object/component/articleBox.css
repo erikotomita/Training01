@@ -1,0 +1,65 @@
+
+/* articleBox.css
+========================================================================== */
+.c-articleBox__img{
+    position: relative;
+    margin-right: 40px;
+    height:190px;
+}
+
+.c-articleBox__img__tag{
+  margin:0 auto;
+  position: absolute;/*絶対配置*/
+  top:0;
+  left: 0;
+  display:inline-block;
+  color: #000;
+  font-size: 14px;
+  padding:5px 20px 5px 20px;
+}
+
+.c-articleBox__info p{
+    margin:0 auto;
+}
+
+.c-articleBox__title{
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.c-articleBox__text{
+  font-size: 14px;
+}
+.c-articleBox__info{
+    position: relative;
+}
+.c-articleBox__button{
+  color: #fff;
+  font: 14px;
+  position: absolute;/*絶対配置*/
+  bottom:0px;
+  right: 0px;
+  width: 150px;
+  height: 50px;
+  background-color:#afafaf;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  border-radius: 5px ;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c-articleBox__button:hover{
+ opacity: 0.5;
+}
+.c-articleBox__img__tag.cate1{
+  background-color:#fff799;
+}
+.c-articleBox__img__tag.cate2{
+    background-color:#a3d39c;
+}
+.c-articleBox__img__tag.cate3{
+    background-color:#ffdfdf;
+}

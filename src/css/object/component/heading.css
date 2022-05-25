@@ -1,0 +1,49 @@
+/* hrading.css
+========================================================================== */
+.c-articleNews__heading{
+  font-size: 24px;
+  background-color: #fff9da;
+  border: 1px solid #ffd800;
+  border-left: 7px solid #ffd800;
+  height:49px;
+  display: table;
+  width:990px;
+}
+
+.c-articleNews__heading span{
+  padding-left:20px;
+  display: table-cell; /* 子要素はテーブルセル要素にする */
+    vertical-align: middle; /* 上下中央に寄せる */
+}
+
+.c-articleFeature__heading{
+  font-size: 24px;
+  background-color: #fff2f2;
+  border: 1px solid #f68e56;
+  border-left: 7px solid #f68e56;
+  height:49px;
+  display: table;
+  width:990px;
+}
+.c-articleFeature__heading span{
+  padding-left:20px;
+  display: table-cell; /* 子要素はテーブルセル要素にする */
+    vertical-align: middle; /* 上下中央に寄せる */
+}
+
+
+.c-articleBlog__heading{
+  font-size: 24px;
+  background-color: #ebebeb;
+  border: 1px solid #6dcff6;
+  border-left: 7px solid #6dcff6;
+  height:48px;
+  display: table;
+  width:990px;
+}
+
+.c-articleBlog__heading span{
+  padding-left:20px;
+  display: table-cell; /* 子要素はテーブルセル要素にする */
+  vertical-align: middle; /* 上下中央に寄せる */
+}

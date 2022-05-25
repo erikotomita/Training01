@@ -1,0 +1,15 @@
+/* footer__contents.css
+========================================================================== */
+.p-footer__contents{
+  width:1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.p-footer__boxLink{
+  width:300px;
+  margin: 35px 0px 40px 0px;
+}

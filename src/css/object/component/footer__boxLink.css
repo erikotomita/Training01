@@ -1,0 +1,68 @@
+/* footer__boxLink
+========================================================================== */
+.l-footer .c-breadList{
+  padding: 6px 0px 6px 0px;
+}
+
+.c-footer__boxLink__title{
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #a8a8a8;
+  padding-bottom: 5px;
+}
+
+.c-footer__boxLink__list{
+   font-size: 14px;
+   padding-left: 0px;
+   margin: 5px 0px 0px 0px;
+}
+
+.c-footer__boxLink__list li{
+  list-style:none;
+}
+
+.c-footer__boxLink__list._first li::before {
+  position: relative;
+  top: -2px;
+  left: 0px;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  content: '';
+  border-radius: 100%;
+  background: #000;
+  margin-right: 10px;
+}
+
+.c-footer__boxLink__list._second li::before {
+  position: relative;
+  top: -2px;
+  left: 0px;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+  font-size: 10px;
+	content: "\f105";
+  margin-right: 10px;
+}
+.c-footer__boxLink__list._third li::before {
+  position: relative;
+  top: -2px;
+  left: 0px;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+  font-size: 10px;
+	content: "\f0c1";
+  margin-right: 12px;
+}
+
+.c-footer__copyrights{
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}

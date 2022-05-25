@@ -1,0 +1,31 @@
+
+/* breadList.css
+========================================================================== */
+ .c-breadList {
+   width:1000px;
+   margin: 0 auto;
+   padding-top: 25px;
+ }
+
+
+ .c-breadList ul li{
+  list-style: none;
+  font-size: 14px;
+  display: inline;
+  padding-right: 10px;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+
+ .c-breadList ul{
+  margin: 0 auto;
+  display: flex;
+  padding-left: 0px;
+ }
+
+
+ .c-breadList  ul li:hover {
+   color: #ccc;
+ }
