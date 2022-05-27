@@ -1,0 +1,15 @@
+
+/* articleBox4col.css
+========================================================================== */
+.c-articleBox4col__img__tag{
+  color: #000;
+  font-size: 14px;
+  padding:5px 22px 5px 22px;
+  background-color:#a3d39c;
+  margin: 10px 0px 15px 0px;
+  display: inline-block;
+}
+
+.c-articleBox4col__text{
+  font-size: 14px;
+}

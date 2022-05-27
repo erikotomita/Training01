@@ -1,0 +1,72 @@
+/* anchorLink.css
+========================================================================== */
+
+
+
+/* home
+========================================================================== */
+
+/* タイトルの色　*/
+
+/* カテゴリの色　*/
+.cate1{
+  background-color:#fff799;
+}
+.cate2{
+    background-color:#a3d39c;
+}
+.cate3{
+    background-color:#ffdfdf;
+}
+
+
+/* タグの色　*/
+
+._green{
+  background-color:#a3d39c;
+}
+._pink{
+  background-color:#ffdfdf;
+}
+._yellow{
+    background-color:#fff799;
+}
+
+/* ボタンの色　*/
+.c-moreButton{
+  color:#fff;
+}
+.c-moreButton._news{
+  background-color: #ffd800;
+  border: 2px solid #000;
+}
+.c-moreButton._feature{
+  background-color: #f68e56;
+  border: 2px solid #000;
+}
+.c-moreButton._blog{
+  background-color: #6dcff6;
+  border: 2px solid #000;
+}
+
+
+/* link1
+========================================================================== */
+
+
+
+/* リンク文字色　*/
+._linkBlue a{
+  color:#1f53fa;
+}
+._linkRed a{
+  color:#ff0000;
+}
+._linkYellow a{
+  color:#ff9c00;
+}
+
+/* ボタンの色　*/
+._buttonBlue{
+    background-color: #00aeef;
+}

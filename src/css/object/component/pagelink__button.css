@@ -1,0 +1,31 @@
+
+/* pagelink_button.css
+========================================================================== */
+.c-pagelink__button{
+  width:300px;
+  height:45px;
+  border-radius: 5px ;
+  display:flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.c-pagelink__button p::before {
+  position: relative;
+  top: -2px;
+  left: 0px;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+  font-size: 10px;
+	content: "\f107";
+  margin-right: 10px;
+}
+.c-pagelink__button:hover{
+  opacity: 0.5;
+}
