@@ -1,7 +1,7 @@
 .c-moreButton_area{
   width:1000px;
   margin: 0 auto;
-  padding: 60px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
 }
 
 .c-moreButton_area__feature{
@@ -14,52 +14,36 @@
   margin: 0 auto;
   padding: 30px 0px 0px 0px;
 }
+
 .c-moreButton._news{
-  text-align: center;
   height:61px;
   width:296px;
-  margin: 0 auto;
-  display:flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: bold;
-  color:#fff;
-  background-color: #ffd800;
-  border: 2px solid #000;
-  border-radius: 5px ;
-
 }
 .c-moreButton._feature{
   float: right;
-  text-align: center;
   height:61px;
   width:296px;
-  margin: 0 auto;
-  display:flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: bold;
-  color:#fff;
-  background-color: #f68e56;
-  border: 2px solid #000;
-  border-radius: 5px ;
+
 }
 .c-moreButton._blog{
-  text-align: center;
   height:61px;
   width:100%;
-  margin: 0 auto;
-  display:flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: bold;
-  color:#fff;
-  background-color: #6dcff6;
-  border: 2px solid #000;
-  border-radius: 5px ;
 }
 
 .c-moreButton{
+  text-align: center;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px ;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px ;
   cursor: pointer;
   -webkit-transition: all .3s;
   transition: all .3s;

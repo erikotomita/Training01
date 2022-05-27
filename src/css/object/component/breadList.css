@@ -5,6 +5,7 @@
    width:1000px;
    margin: 0 auto;
    padding-top: 25px;
+   padding-bottom: 40px;
  }
 
 
@@ -13,11 +14,7 @@
   font-size: 14px;
   display: inline;
   padding-right: 10px;
-  cursor: pointer;
-  -webkit-transition: all .3s;
-  transition: all .3s;
 }
-
 
  .c-breadList ul{
   margin: 0 auto;
@@ -25,7 +22,18 @@
   padding-left: 0px;
  }
 
+ .c-breadList li a{
+   color:#000;
+ }
+ .c-breadList li._active a{
+   text-decoration: none;
+ }
+ .c-breadList li._link a{
+   cursor: pointer;
+   -webkit-transition: all .3s;
+   transition: all .3s;
+ }
 
- .c-breadList  ul li:hover {
+ .c-breadLis li._link a:hover {
    color: #ccc;
  }
