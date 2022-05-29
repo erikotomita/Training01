@@ -50,3 +50,28 @@
   padding: 11px 0px 11px 18px;
   margin:0px 0px 25px 0px;
 }
+/* article ================== */
+
+.c-article__heading{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  height:80px;
+  border: 2px solid #000;
+  background-color: #6dcff6;
+  margin-bottom: 0px;
+}
+.c-article__heading__h3{
+  font-size: 24px;
+  height:49px;
+  display: table;
+  width:990px;
+  margin-bottom: 30px;
+  background-color: #fff9da;
+  border-left: 7px solid #ffd800;
+}
+.c-article__heading__h3 span{
+  padding-left:20px;
+  display: table-cell; /* 子要素はテーブルセル要素にする */
+  vertical-align: middle; /* 上下中央に寄せる */
+}
