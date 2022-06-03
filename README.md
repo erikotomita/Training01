@@ -1,4 +1,4 @@
-# Training01
+# AGL-TO CHAP03
 
 BEMの命名規則やlayoutとprojectとcomponentの使い分けがいまいちよく分からないまま
 人様のコードを見つつとりあえず進めた。。。<br>
