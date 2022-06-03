@@ -38,12 +38,6 @@
   font-size: 18px;
   font-weight: bold;
   border-radius: 5px ;
-  margin: 0 auto;
-  display:flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 5px ;
   cursor: pointer;
   -webkit-transition: all .3s;
   transition: all .3s;

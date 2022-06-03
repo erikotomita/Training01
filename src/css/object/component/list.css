@@ -1,0 +1,28 @@
+
+/*  list.css
+========================================================================== */
+._2nd .c-list{
+  list-style: none;
+  counter-reset: item;
+  margin: 30px 0px 0px 0px;
+}
+
+._2nd ol{
+  list-style: none;
+  counter-reset: item;
+}
+._2nd li{
+  padding-bottom:10px;
+}
+
+._2nd ol li:before {
+  margin-right: .25em;
+  counter-increment: item;
+  content: counters(item, ".")"."; /* before擬似要素のcontentで出力 */
+  color: #f5989d; /* 色を変更 */
+}
+
+._2nd ol li._li:before {
+  counter-increment: item;
+  content: counters(item, "."); /* before擬似要素のcontentで出力 */
+}
